@@ -29,14 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach loops through only, while .map creates new arrays from a current existing array
+
 
 2. What is the difference between a function and a method?
 
+a function is a code that is called by name, it can be passed data, parameters, and can return new data.
+a method is a block of code belonging to an object, method is passed on the object is was called on, and is able to operate on data taht is contained within the object
+
 3. What is closure?
+closure is a nested function that has access to the outer functions variables. it has access to its own variables, the function that nests it, and global variables
 
 4. Describe the four rules of the 'this' keyword.
+implicity binding- look to the left of the dot, that is what "this" is refering to.
+.call will invoke the function right away, passes in arugments one by one
+apply will also invoke the funciton right away, passes in aruments as an array
+bind, pass arugments one by one, but does not invoke the function, instead returns a brand new functon that can be invoked later
+
 
 5. Why do we need super() in an extended class?
+connects the child to the parent. and allows the child to inherit propeties from the parent
 
 ## Project Set up
 
